@@ -1,10 +1,21 @@
+![FINKI UKIM Logo](http://ilt.finki.ukim.mk/wp-content/uploads/2016/10/Logo_FINKI_UKIM_EN.jpg)
 # genetic-algorithm-for-neural-network-params
-Project in AI consisting of a Genetic Algorithm for optimizing parameters of Neural Network. The program takes long to run with our limited resources and because of that only the MNIST dataset was used for training and testing.
+
+**Topic:** Using Genetic Algorithms for optimizing parameters of Neural Networks
 
 **Done in collaboration with**:
-- Tamara Stojanova https://github.com/tamarastojanova
-- Andrej Sterjev
-- Sonja Petrovska
+> Tamara Stojanova https://github.com/tamarastojanova
+> 
+> Andrej Sterjev
+> 
+> Sonja Petrovska
+
+
+**Subject**: Artificial Intelligence
+
+
+> Disclaimer: The program took long to run due to our limited resources and because of that only the MNIST dataset was used for training and testing.
+
 
 **Introduction**
 
