@@ -2,7 +2,7 @@
 Project in AI consisting of a Genetic Algorithm for optimizing parameters of Neural Network. The program takes long to run with our limited resources and because of that only the MNIST dataset was used for training and testing.
 
 **Done in collaboration with**:
-- Tamara Stojanova
+- Tamara Stojanova https://github.com/tamarastojanova
 - Andrej Sterjev
 - Sonja Petrovska
 
