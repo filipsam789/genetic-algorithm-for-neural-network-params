@@ -1,0 +1,64 @@
+Enter the number of generations, i.e. the number of times to evolve the population
+10
+Enter the size of the population, i.e. the number of networks in each generation
+20
+Enter the dataset [Options: 'mnist', 'cifar10']
+mnist
+Enter the amount of pictures to train on [Defaults: MNIST-60000, CIFAR10-50000]
+60000
+Enter the amount of pictures to test on [Defaults: MNIST-10000, CIFAR10-10000]
+10000
+**Evolving 10 generations with population 20**
+**Doing generation 1 of 10**
+100%|██████████| 20/20 [5:34:15<00:00, 1002.79s/it]
+Generation average: 82.09%
+--------------------------------------------------------------------------------
+**Doing generation 2 of 10**
+100%|██████████| 20/20 [52:02<00:00, 156.13s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 95.87%
+--------------------------------------------------------------------------------
+**Doing generation 3 of 10**
+100%|██████████| 20/20 [2:16:49<00:00, 410.49s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 97.57%
+--------------------------------------------------------------------------------
+**Doing generation 4 of 10**
+100%|██████████| 20/20 [12:36<00:00, 37.84s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 97.93%
+--------------------------------------------------------------------------------
+**Doing generation 5 of 10**
+100%|██████████| 20/20 [1:19:43<00:00, 239.15s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 98.06%
+--------------------------------------------------------------------------------
+**Doing generation 6 of 10**
+100%|██████████| 20/20 [01:58<00:00,  5.95s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 98.20%
+--------------------------------------------------------------------------------
+**Doing generation 7 of 10**
+100%|██████████| 20/20 [33:17<00:00, 99.87s/it] 
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 98.26%
+--------------------------------------------------------------------------------
+**Doing generation 8 of 10**
+Generation average: 98.36%
+--------------------------------------------------------------------------------
+**Doing generation 9 of 10**
+100%|██████████| 20/20 [59:16<00:00, 177.81s/it]
+100%|██████████| 20/20 [59:38<00:00, 178.90s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]Generation average: 98.36%
+--------------------------------------------------------------------------------
+**Doing generation 10 of 10**
+100%|██████████| 20/20 [1:53:10<00:00, 339.54s/it]
+Generation average: 98.36%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.42%
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.36%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.21%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.12%
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.11%
+
+Process finished with exit code 0

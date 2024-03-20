@@ -1,0 +1,502 @@
+C:\Users\filip\AppData\Local\Microsoft\WindowsApps\python3.10.exe "C:\Users\filip\Desktop\VI proekt\VI_project\brute.py" 
+Enter the dataset [Options: 'mnist', 'cifar10']
+mnist
+Enter the amount of pictures to train on [Defaults: MNIST-60000, CIFAR10-50000]
+60000
+Enter the amount of pictures to test on [Defaults: MNIST-10000, CIFAR10-10000]
+10000
+**Brute forcing networks**
+  0%|          | 1/240 [30:16<120:37:41, 1816.99s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.43%
+  1%|          | 2/240 [31:20<51:54:48, 785.25s/it]  {'nb_neurons': 64, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.36%
+{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.86%
+  2%|▏         | 4/240 [36:57<24:23:26, 372.06s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 94.05%
+  2%|▏         | 5/240 [38:52<18:13:09, 279.10s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 94.42%
+  2%|▎         | 6/240 [47:45<23:45:19, 365.47s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 95.12%
+  3%|▎         | 7/240 [51:34<20:46:29, 320.98s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 93.15%
+  3%|▎         | 8/240 [52:48<15:36:54, 242.30s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 94.16%
+{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 94.85%
+  4%|▍         | 10/240 [1:03:54<18:17:38, 286.34s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 94.43%
+  5%|▍         | 11/240 [1:04:50<13:44:21, 215.99s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 94.88%
+  5%|▌         | 12/240 [1:11:05<16:43:38, 264.12s/it]{'nb_neurons': 64, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 94.83%
+  5%|▌         | 13/240 [1:57:35<64:54:06, 1029.28s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.54%
+{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.39%
+  6%|▋         | 15/240 [2:01:53<35:57:21, 575.30s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.71%
+{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 95.39%
+  7%|▋         | 17/240 [2:06:58<21:51:29, 352.87s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.35%
+{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.25%
+  8%|▊         | 19/240 [2:24:45<25:24:54, 414.00s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 95.46%
+  8%|▊         | 20/240 [2:25:31<18:32:17, 303.35s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 96.57%
+{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.37%
+  9%|▉         | 22/240 [2:34:59<17:33:36, 289.98s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.01%
+ 10%|▉         | 23/240 [2:35:46<13:04:52, 217.01s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 96.64%
+ 10%|█         | 24/240 [2:40:36<14:20:20, 238.98s/it]{'nb_neurons': 64, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 95.90%
+ 10%|█         | 25/240 [4:45:50<144:37:17, 2421.57s/it]{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.48%
+{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.48%
+ 11%|█▏        | 27/240 [4:51:28<75:24:32, 1274.52s/it] {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.68%
+{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 95.02%
+ 12%|█▏        | 29/240 [4:59:56<43:17:55, 738.75s/it] {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.40%
+ 12%|█▎        | 30/240 [5:17:45<48:52:23, 837.83s/it]{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 95.85%
+ 13%|█▎        | 31/240 [5:21:27<37:54:35, 652.99s/it]{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.22%
+{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.36%
+ 14%|█▍        | 33/240 [5:26:38<23:30:34, 408.86s/it]{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.06%
+{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.71%
+ 15%|█▍        | 35/240 [5:31:24<15:02:33, 264.17s/it]{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 96.98%
+{'nb_neurons': 64, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.17%
+ 15%|█▌        | 37/240 [7:13:43<110:01:31, 1951.19s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.47%
+{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.82%
+ 16%|█▋        | 39/240 [7:19:12<57:59:29, 1038.65s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.40%
+{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 0.00%
+ 17%|█▋        | 41/240 [7:22:25<31:17:44, 566.15s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.70%
+ 18%|█▊        | 42/240 [7:22:41<22:03:47, 401.15s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 0.00%
+{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.45%
+ 18%|█▊        | 44/240 [7:28:41<15:09:44, 278.49s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.21%
+ 19%|█▉        | 45/240 [7:32:47<14:33:08, 268.66s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.96%
+ 19%|█▉        | 46/240 [7:38:36<15:46:52, 292.85s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.76%
+ 20%|█▉        | 47/240 [7:39:49<12:09:46, 226.88s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.16%
+ 20%|██        | 48/240 [7:43:15<11:46:40, 220.84s/it]{'nb_neurons': 64, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.35%
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.37%
+ 21%|██        | 50/240 [8:11:26<25:03:45, 474.87s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.50%
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.88%
+ 22%|██▏       | 52/240 [8:18:21<17:34:13, 336.45s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 95.34%
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.04%
+ 22%|██▎       | 54/240 [8:32:53<21:32:05, 416.80s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 95.87%
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 95.29%
+ 23%|██▎       | 56/240 [8:36:39<13:05:42, 256.21s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 95.97%
+ 24%|██▍       | 57/240 [8:43:16<15:10:24, 298.50s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.16%
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 95.43%
+ 25%|██▍       | 59/240 [8:47:37<10:18:40, 205.08s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 96.16%
+ 25%|██▌       | 60/240 [8:54:02<12:56:31, 258.84s/it]{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 95.98%
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.50%
+ 26%|██▌       | 62/240 [9:52:08<42:58:49, 869.27s/it] {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.49%
+ 26%|██▋       | 63/240 [9:56:26<33:43:53, 686.07s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.74%
+ 27%|██▋       | 64/240 [10:01:39<28:03:59, 574.09s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.21%
+ 27%|██▋       | 65/240 [10:02:47<20:31:47, 422.33s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.26%
+ 28%|██▊       | 66/240 [10:23:41<32:28:03, 671.74s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.47%
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.50%
+ 28%|██▊       | 68/240 [10:27:24<18:07:21, 379.31s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.20%
+ 29%|██▉       | 69/240 [10:33:06<17:29:30, 368.25s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.78%
+ 29%|██▉       | 70/240 [10:37:00<15:29:20, 328.00s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.80%
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.29%
+ 30%|███       | 72/240 [10:42:18<11:46:17, 252.25s/it]{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.44%
+ 30%|███       | 73/240 [11:49:07<63:59:12, 1379.36s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.48%
+ 31%|███       | 74/240 [11:50:49<45:56:13, 996.23s/it] {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.86%
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.76%
+ 32%|███▏      | 76/240 [12:02:07<30:38:50, 672.75s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.57%
+ 32%|███▏      | 77/240 [12:03:26<22:23:41, 494.61s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.34%
+ 32%|███▎      | 78/240 [12:28:35<35:57:31, 799.09s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.40%
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.63%
+ 33%|███▎      | 80/240 [12:33:29<20:20:24, 457.65s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.25%
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.08%
+ 34%|███▍      | 82/240 [12:43:31<16:34:06, 377.51s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.08%
+ 35%|███▍      | 83/240 [12:44:33<12:20:09, 282.86s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.84%
+ 35%|███▌      | 84/240 [12:48:37<11:45:04, 271.18s/it]{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.57%
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.44%
+ 36%|███▌      | 86/240 [15:32:40<94:42:49, 2214.09s/it] {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.88%
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.45%
+ 37%|███▋      | 88/240 [15:36:16<47:47:04, 1131.74s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 0.00%
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.96%
+ 38%|███▊      | 90/240 [15:38:23<24:18:12, 583.28s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 0.00%
+ 38%|███▊      | 91/240 [15:43:34<20:45:15, 501.45s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.98%
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.58%
+ 39%|███▉      | 93/240 [15:49:48<14:17:30, 350.00s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.17%
+ 39%|███▉      | 94/240 [15:56:45<15:01:16, 370.38s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.22%
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.83%
+ 40%|████      | 96/240 [16:01:31<10:24:00, 260.00s/it]{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.89%
+ 40%|████      | 97/240 [16:29:46<27:26:10, 690.70s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.38%
+ 41%|████      | 98/240 [16:31:45<20:28:49, 519.22s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.30%
+ 41%|████▏     | 99/240 [16:37:06<18:00:29, 459.79s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.75%
+ 42%|████▏     | 100/240 [16:41:56<15:53:44, 408.75s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 95.93%
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 96.94%
+ 42%|████▎     | 102/240 [17:05:30<23:30:23, 613.21s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.07%
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 95.69%
+ 43%|████▎     | 104/240 [17:10:11<13:44:57, 363.95s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 96.88%
+ 44%|████▍     | 105/240 [17:19:07<15:34:57, 415.53s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.51%
+ 44%|████▍     | 106/240 [17:22:51<13:20:05, 358.25s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.19%
+ 45%|████▍     | 107/240 [17:23:38<9:47:06, 264.86s/it] {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 96.74%
+ 45%|████▌     | 108/240 [17:31:57<12:16:51, 334.93s/it]{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.31%
+ 45%|████▌     | 109/240 [18:36:09<50:35:23, 1390.25s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.48%
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.42%
+ 46%|████▋     | 111/240 [18:43:28<28:39:29, 799.76s/it] {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.77%
+ 47%|████▋     | 112/240 [18:51:25<24:59:39, 702.97s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.59%
+ 47%|████▋     | 113/240 [18:53:02<18:22:46, 521.00s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.68%
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.84%
+ 48%|████▊     | 115/240 [19:32:45<27:05:54, 780.44s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.84%
+ 48%|████▊     | 116/240 [19:33:48<19:28:30, 565.41s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.57%
+ 49%|████▉     | 117/240 [19:42:12<18:41:05, 546.87s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.01%
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.36%
+ 50%|████▉     | 119/240 [19:47:54<11:33:59, 344.13s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.06%
+ 50%|█████     | 120/240 [19:53:58<11:40:10, 350.09s/it]{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.81%
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.46%
+ 51%|█████     | 122/240 [21:36:39<48:45:03, 1487.32s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.44%
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.51%
+ 52%|█████▏    | 124/240 [21:55:38<33:38:24, 1044.01s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.94%
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.82%
+ 52%|█████▎    | 126/240 [22:45:32<44:21:42, 1400.90s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.54%
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 97.03%
+ 53%|█████▎    | 128/240 [22:52:45<24:23:55, 784.25s/it] {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.94%
+ 54%|█████▍    | 129/240 [23:00:11<21:03:09, 682.79s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.21%
+ 54%|█████▍    | 130/240 [23:07:07<18:25:03, 602.76s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.35%
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.92%
+ 55%|█████▌    | 132/240 [23:14:33<12:32:27, 418.03s/it]{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.76%
+ 55%|█████▌    | 133/240 [26:12:53<104:06:43, 3502.84s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.56%
+ 56%|█████▌    | 134/240 [26:18:13<75:01:03, 2547.77s/it] {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.01%
+ 56%|█████▋    | 135/240 [26:22:54<54:28:54, 1867.95s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.52%
+ 57%|█████▋    | 136/240 [26:23:26<38:03:05, 1317.17s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 0.00%
+ 57%|█████▋    | 137/240 [26:26:48<28:06:23, 982.37s/it] {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.49%
+ 57%|█████▊    | 138/240 [26:27:34<19:52:35, 701.52s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 0.00%
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 97.42%
+ 58%|█████▊    | 140/240 [26:38:51<13:47:43, 496.64s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.87%
+ 59%|█████▉    | 141/240 [26:46:36<13:24:08, 487.36s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.36%
+ 59%|█████▉    | 142/240 [26:55:37<13:42:10, 503.37s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.55%
+ 60%|█████▉    | 143/240 [26:57:21<10:19:57, 383.48s/it]{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.06%
+ 60%|██████    | 144/240 [27:02:19<9:32:40, 357.92s/it] {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 97.10%
+ 60%|██████    | 145/240 [27:36:27<22:49:34, 865.00s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.34%
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.56%
+ 61%|██████▏   | 147/240 [27:50:37<16:56:44, 655.96s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.83%
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.34%
+ 62%|██████▏   | 149/240 [28:02:40<12:19:33, 487.62s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.25%
+ 62%|██████▎   | 150/240 [28:40:52<25:43:25, 1028.95s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.01%
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 95.97%
+ 63%|██████▎   | 152/240 [28:49:01<15:06:35, 618.13s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 96.33%
+ 64%|██████▍   | 153/240 [29:03:56<16:56:49, 701.26s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.72%
+ 64%|██████▍   | 154/240 [29:08:53<13:51:30, 580.13s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.70%
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.19%
+ 65%|██████▌   | 156/240 [29:26:36<13:54:06, 595.80s/it]{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.59%
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.44%
+ 66%|██████▌   | 158/240 [30:52:16<32:07:59, 1410.73s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.92%
+ 66%|██████▋   | 159/240 [31:05:06<27:25:02, 1218.55s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.80%
+ 67%|██████▋   | 160/240 [31:23:15<26:12:55, 1179.69s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.52%
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.85%
+ 68%|██████▊   | 162/240 [33:17:49<56:12:04, 2593.90s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.69%
+ 68%|██████▊   | 163/240 [33:28:11<42:49:52, 2002.50s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.97%
+ 68%|██████▊   | 164/240 [33:30:32<30:28:56, 1443.90s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.79%
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.19%
+ 69%|██████▉   | 166/240 [33:58:17<22:36:20, 1099.73s/it]{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.45%
+ 70%|██████▉   | 167/240 [34:01:06<16:38:07, 820.37s/it] {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.03%
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.82%
+ 70%|███████   | 169/240 [37:10:17<73:44:05, 3738.67s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.42%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.20%
+ 71%|███████▏  | 171/240 [37:35:21<42:34:35, 2221.38s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.57%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 97.18%
+ 72%|███████▏  | 173/240 [38:11:18<29:22:38, 1578.49s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.16%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.83%
+ 73%|███████▎  | 175/240 [40:40:43<49:16:28, 2729.05s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.99%
+ 73%|███████▎  | 176/240 [40:43:45<34:56:08, 1965.13s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.67%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.24%
+ 74%|███████▍  | 178/240 [41:19:35<25:32:12, 1482.78s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.52%
+ 75%|███████▍  | 179/240 [41:22:08<18:21:57, 1083.89s/it]{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.05%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.99%
+ 75%|███████▌  | 181/240 [45:44:50<84:57:08, 5183.53s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.44%
+ 76%|███████▌  | 182/240 [45:56:15<61:46:21, 3834.16s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.49%
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.48%
+ 77%|███████▋  | 184/240 [46:12:42<32:33:38, 2093.19s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 0.00%
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.86%
+ 78%|███████▊  | 186/240 [46:25:26<17:58:18, 1198.13s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 0.00%
+ 78%|███████▊  | 187/240 [46:43:19<17:05:16, 1160.69s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 97.14%
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.09%
+ 79%|███████▉  | 189/240 [47:12:33<15:07:28, 1067.62s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.16%
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.69%
+ 80%|███████▉  | 191/240 [47:37:13<11:55:42, 876.38s/it] {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.11%
+ 80%|████████  | 192/240 [47:51:35<11:37:33, 871.95s/it]{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.93%
+ 80%|████████  | 193/240 [48:27:32<16:25:00, 1257.45s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.45%
+ 81%|████████  | 194/240 [48:41:48<14:31:47, 1137.12s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.17%
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.70%
+ 82%|████████▏ | 196/240 [49:39:35<16:57:15, 1387.17s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.56%
+ 82%|████████▏ | 197/240 [49:49:40<13:46:03, 1152.63s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.28%
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.34%
+ 83%|████████▎ | 199/240 [52:39:24<31:34:06, 2771.88s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.41%
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.27%
+ 84%|████████▍ | 201/240 [53:36:05<25:19:10, 2337.18s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 96.88%
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 96.86%
+ 85%|████████▍ | 203/240 [53:46:22<13:19:36, 1296.65s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 97.61%
+ 85%|████████▌ | 204/240 [54:27:44<16:31:30, 1652.50s/it]{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.90%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.36%
+ 86%|████████▌ | 206/240 [56:46:08<25:26:31, 2693.86s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.99%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.79%
+ 87%|████████▋ | 208/240 [58:42:22<27:08:08, 3052.77s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 96.69%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.06%
+ 88%|████████▊ | 210/240 [66:29:26<81:04:39, 9729.32s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.66%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.81%
+ 88%|████████▊ | 212/240 [67:11:14<41:54:38, 5388.53s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.72%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.12%
+ 89%|████████▉ | 214/240 [69:06:48<30:08:24, 4173.24s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.43%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.21%
+ 90%|█████████ | 216/240 [70:24:43<22:26:22, 3365.93s/it]{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 96.96%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.37%
+ 91%|█████████ | 218/240 [75:14:37<34:09:43, 5590.17s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 83.16%
+ 91%|█████████▏| 219/240 [76:24:49<30:11:51, 5176.74s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.73%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 97.00%
+ 92%|█████████▏| 221/240 [78:09:55<21:01:25, 3983.45s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 97.90%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 96.70%
+ 93%|█████████▎| 223/240 [90:31:57<54:20:56, 11509.22s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 97.27%
+ 93%|█████████▎| 224/240 [90:47:34<37:03:20, 8337.54s/it] {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.07%
+ 94%|█████████▍| 225/240 [92:29:19<31:56:56, 7667.79s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.22%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.69%
+ 95%|█████████▍| 227/240 [93:17:55<16:15:18, 4501.39s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.12%
+ 95%|█████████▌| 228/240 [94:20:38<14:15:57, 4279.75s/it]{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 97.00%
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'lbfgs'}
+Network accuracy: 83.46%
+ 96%|█████████▌| 230/240 [102:31:10<23:50:35, 8583.56s/it] {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'adam'}
+Network accuracy: 82.40%
+ 96%|█████████▋| 231/240 [103:36:15<17:56:59, 7179.95s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'identity', 'optimizer': 'sgd'}
+Network accuracy: 83.52%
+ 97%|█████████▋| 232/240 [103:40:04<11:19:18, 5094.80s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'lbfgs'}
+Network accuracy: 0.00%
+ 97%|█████████▋| 233/240 [104:34:00<8:49:20, 4537.16s/it] {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.36%
+ 98%|█████████▊| 234/240 [105:11:14<6:24:37, 3846.31s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'sgd'}
+Network accuracy: 0.00%
+ 98%|█████████▊| 235/240 [106:00:38<4:58:27, 3581.50s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'lbfgs'}
+Network accuracy: 96.95%
+ 98%|█████████▊| 236/240 [106:23:09<3:14:09, 2912.27s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'adam'}
+Network accuracy: 97.09%
+ 99%|█████████▉| 237/240 [108:17:46<3:25:05, 4101.73s/it]{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'tanh', 'optimizer': 'sgd'}
+Network accuracy: 97.21%
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'lbfgs'}
+Network accuracy: 97.70%
+100%|█████████▉| 239/240 [109:47:14<56:59, 3419.13s/it]  {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.42%
+100%|██████████| 240/240 [110:48:48<00:00, 1662.20s/it]
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'sgd'}
+Network accuracy: 97.19%
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.42%
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.36%
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.21%
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'logistic', 'optimizer': 'adam'}
+Network accuracy: 98.16%
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adam'}
+Network accuracy: 98.12%
+
+Process finished with exit code 0

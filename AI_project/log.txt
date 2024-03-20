@@ -1,0 +1,4 @@
+10/11/2023 12:36:41 PM - INFO - ***Evolving 2 generations with population 4***
+10/11/2023 12:36:41 PM - INFO - ***Doing generation 1 of 2***
+10/11/2023 12:44:59 PM - INFO - Generation average: 97.99%
+10/11/2023 12:44:59 PM - INFO - --------------------------------------------------------------------------------
